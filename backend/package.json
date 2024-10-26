@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@clerk/express": "^1.3.3",
+    "@zodios/core": "^10.9.6",
+    "@zodios/express": "^10.6.1",
+    "@zodios/openapi": "^10.5.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "swagger-ui-express": "^5.0.1",
+    "zod": "^3.23.8"
+  }
+}
